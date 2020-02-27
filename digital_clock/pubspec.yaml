@@ -1,0 +1,36 @@
+name: digital_clock
+description: Digital clock.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.3.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  cupertino_icons: ^0.1.2
+  flutter_svg: ^0.15.0
+  percent_indicator: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Saira
+      fonts:
+        - asset: assets/font/SairaExtraCondensed-ExtraBold.ttf
+
+  assets:
+    - assets/svg/wi-cloud.svg
+    - assets/svg/wi-fog.svg
+    - assets/svg/wi-rain.svg
+    - assets/svg/wi-snow.svg
+    - assets/svg/wi-sunny.svg
+    - assets/svg/wi-thunderstorm.svg
+    - assets/svg/wi-windy.svg
+    - assets/svg/wi-refresh.svg
